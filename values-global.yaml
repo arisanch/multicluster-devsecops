@@ -13,17 +13,17 @@ global:
   secure-registry:
     namespace: "openshift-storage"
 
-  imageregistry:
-    account: PLAINTEXT
-    hostname: quay.io
-    type: quay
-
-  git:
-    hostname: github.com
-    account: PLAINTEXT
-    username: PLAINTEXT
-    email: SOMEWHERE@EXAMPLE.COM
-    dev_revision: main
+#  imageregistry:
+#    account: arisanch
+#    hostname: quay.io
+#    type: quay
+#
+#  git:
+#    hostname: github.com
+#    account: arisanch
+#    username: arisanch
+#    email: arisanch@redhat.com
+#    dev_revision: main
 
   quay:
     # Needs to be set consistently between hub and spoke clusters
